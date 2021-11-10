@@ -85,12 +85,45 @@ $(document).ready(function(){
 
 <input type=button  style="color:red;" value=点击刷新网页 onclick="history.go(0)">
 
+
+
 </div></p>
 </header>
 
 
+<style type="text/css">
+@keyframes blink{
+0%{opacity: 1;}
+
+50%{opacity: 1;}
+
+50.01%{opacity: 0;}
+
+100%{opacity: 0;}
+
+}
+
+
+
+.blink{
+animation: blink .75s linear infinite;
+
+-webkit-animation: blink .75s linear infinite;
+
+-moz-animation: blink .75s linear infinite;
+
+-ms-animation: blink .75s linear infinite;
+
+-o-animation: blink .75s linear infinite;
+
+
+}
+</style>
+
+
 <li class="swiper-slide">
-<h4><a  href="http://cp666624.github.io/公告"><font color="FF0000">☞公告📢:站内最新公告已更新☞请点击查看！</font></a></h4></li>
+<div class="blink">
+<h4><a  href="http://cp666624.github.io/公告"><font color="FF0000">☞公告📢:站内最新公告已更新☞请点击查看！</font></a></h4></div></li>
 <ul>
 
 <marquee>
