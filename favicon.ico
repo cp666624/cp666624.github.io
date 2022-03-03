@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+<title>ico图标在线生成-favicon在线制作-在线ico图标转换工具-在线生成Favicon.ico图标-在线生成icon图标</title>
+<meta name="keywords" content="ICO图标在线生成,制作ico图标,在线ico图标转换工具,在线生成Favicon图标,在线生成icon图标" />
+<meta name="description" content="懒人工具轻松制作ico图标,在线提供ico图标转换工具,可以将jpg、jpeg、gif、png等图像转换成ico图像,方便浏览器制作并生成favicon.ico图标,提供ico图标下载,png to ico,jpg to ico,gif to ico" />
+<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/css/layer.min.css" rel="stylesheet">
+<link href="/static/css/global.css" rel="stylesheet" type="text/css" />
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/global.js"></script>
+<script src="/static/js/clipboard.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="aw-container-wrap"><div class="container"><div class="row"><div class="aw-content-wrap clearfix"><div class=" aw-main-content"><nav class="navbar navbar-default" id='top_menu'><div class="container-fluid"><ul class="nav navbar-nav" style="width: 100%;"><li><a href="http://www.ab173.com/"><strong style="color: #000000">在线懒人工具</strong></a></li><li class="dropdown hide1"><a href="#" class="dropdown-toggle" id="jsontools" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">JSON相关<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="http://www.ab173.com/json/">格式化校验</a></li><li><a href="http://www.ab173.com/json/jsonviewernew.php" target="_blank" red>JSON视图</a></li><li><a href="http://www.ab173.com/json/zhuanyi.php" red>JSON压缩转义</a></li><li><a href="http://www.ab173.com/json/json2javapojo.php" red>JSON生成Java实体类</a></li><li><a href="http://www.ab173.com/json/jsoneditoronline.php" red>JSON在线编辑器</a></li><li><a href="http://www.ab173.com/json/jsonduibi.php" target="_blank">JSON解析对比工具</a></li><li><a href="http://www.ab173.com/json/jsoncolor.php">JSON着色</a></li><li><a href="http://www.ab173.com/json/xml2json.php" red>XML-JSON互转</a></li><li><a href="http://www.ab173.com/json/json2get.php" id="json2get">JSON和GET请求字符串互转</a></li><li><a href="http://www.ab173.com/json/col2json.php" id="excel2json">Excel转Json</a></li><li><a href="http://www.ab173.com/json/json2excel.php" id="json2csv">json转csv、excel</a></li></ul></li><li class="dropdown hide1"><a href="#" id="encTools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">编码/加密<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="http://www.ab173.com/enc/base64.php">Base64编码、解码</a></li><li><a href="http://www.ab173.com/enc/md5.php">在线md5加密破解工具</a></li><li><a href="http://www.ab173.com/enc/aesdes.php" id="aes">DES,AES等对称加密解密</a></li><li><a href="http://www.ab173.com/enc/sha.php">SHA加密</a></li><li><a href="http://www.ab173.com/enc/escape.php">Escape编码</a></li><li><a href="http://www.ab173.com/enc/urlencode.php" id="urlEncode">URL编码</a></li><li><a href="http://www.ab173.com/enc/eval_package.php">Javascript Eval加密解密</a></li><li><a href="http://www.ab173.com/enc/morse.php">摩斯密码加密解密</a></li><li><a href="http://www.ab173.com/enc/htpasswd.php">在线htpasswd生成器</a></li><li><a href="http://www.ab173.com/enc/hash.php">在线Hash计算器</a></li><li><a id="unicodechinese" href="http://www.ab173.com/convert/unicode_chinese.php">unicode中文互转</a></li><li><a href="http://www.ab173.com/convert/jscodeconfusion.php">JS代码混淆</a></li><li><a href="http://www.ab173.com/kami/" target="_blank">在线卡密批量生成器</a></li><li><a href="http://www.ab173.com/enc/phpjiami.php" target="_blank">在线php代码加密</a></li></ul></li><li class="dropdown hide1"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" id="formatTools" aria-expanded="false">格式化<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="http://www.ab173.com/format/json.php">JSON格式化高亮工具</a></li><li><a href="http://www.ab173.com/format/jshtml.php">Javascript/HTML压缩、格式化</a></li><li><a href="http://www.ab173.com/format/css.php">CSS压缩、格式化</a></li><li><a href="http://www.ab173.com/format/xml.php">XML压缩、格式化</a></li><li><a href="http://www.ab173.com/format/sql.php" id="formatsql">SQL压缩、格式化</a></li>
+<li><a href="http://www.ab173.com/format/jspacker.php">js代码压缩工具</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" id="httputil" class="dropdown-toggle"data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">网络<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.ab173.com/dns/">全国DNS服务器IP地址汇总</a></li>
+<li><a href="http://www.ab173.com/ip/" id="queryip">IP地址查询</a></li>
+<li><a href="http://www.ab173.com/ip/ipbatch.php" id="queryip">IP地址批量查询</a></li>
+<li><a href="http://www.ab173.com/ip/ip_domain.php" id="ipdomain">在线同IP地址网站查询</a></li>
+<li><a href="http://www.ab173.com/net/getip.php" id="queryip">获取IP详细信息</a></li>
+<li><a href="http://www.ab173.com/net/clientinfo.php" id="clientinfo">获取您的浏览器信息</a></li>
+<li><a href="http://www.ab173.com/net/useragent.php" id="useragent">常用USER_AGENT</a></li>
+<li><a href="http://www.ab173.com/net/ip2int.php" id="ip2int">IP转数字,数字转IP</a></li>
+<li><a href="http://www.ab173.com/net/subnetmask.php" id="subnetmask">TCP/IP子网掩码计算换算</a></li>
+<li><a href="http://www.ab173.com/net/macaddress.php" id="macaddress">MAC地址生成器</a></li>
+<li><a href="http://www.ab173.com/dnslocal/" target="_blank">用户在线网络诊断工具</a></li>
+<li><a href="http://www.ab173.com/ip/aliyuncdnip.php" id="clientinfo">阿里云CDN节点IP验证查询</a></li>
+<li><a href="http://www.ab173.com/ip/nslookup.php" id="clientinfo">Nslookup查询</a></li>
+<li><a href="http://www.ab173.com/ip/domain2ip.php" id="domain2ip">在线域名批量解析ip地址查询</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" id="uitools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">前端<span class="caret"></span></a>
+<ul class="dropdown-menu ul-list">
+<li><a href="http://www.ab173.com/convert/htmljs.php" id="html2js">在线html转js,js转html</a></li>
+<li><a href="http://www.ab173.com/convert/htmlfilter.php">在线Html/Js/Css过滤工具</a></li>
+<li><a href="http://www.ab173.com/other/js_debug.php">在线JS脚本校验器</a></li>
+<li><a href="http://www.ab173.com/ui/fontawesome.php" id="tinypic">fontawesome图标查询</a></li>
+<li><a href="http://www.ab173.com/ui/compress_img.php" id="compress_img">图片在线压缩工具</a></li>
+<li><a href="http://www.ab173.com/pages/cooleditor/" id="simpleeidtor" target="_blank">在线代码编辑器</a></li>
+<li><a href="http://www.ab173.com/ueditor/" id="ueditor">ueditor在线代码编辑器</a></li>
+<li><a href="http://www.ab173.com/ui/OnlineColor.php">在线调色板</a></li>
+<li><a href="http://www.ab173.com/ui/safecolor.php" id="safecolor">WEB安全色</a></li>
+<li><a href="http://www.ab173.com/ui/cmykcolor.php" id="cmykcolor">CMYK颜色对照表</a></li>
+<li><a href="http://www.ab173.com/ui/image2base64.php" id="img2base64">在线图片转Base64编码</a></li>
+<li><a href="http://www.ab173.com/ui/svg_editor.php" id="svgedit">SVG代码编辑预览</a></li>
+<li><a href="http://www.ab173.com/other/libcdn.php" id="libcdn">常用JS资源库</a></li>
+<li><a href="http://www.ab173.com/ui/openweb.php" id="openweb">弹出窗口生成器</a></li>
+<li><a href="http://www.ab173.com/ui/texteditor.php" id="texteditor">自动排版工具</a></li>
+<li><a href="http://www.ab173.com/ui/ascii.php">ASCII字形生成器</a></li>
+<li><a href="http://www.ab173.com/ui/phonesize.php">手机UI尺寸规范</a></li>
+<li><a href="http://www.ab173.com/ui/websize.php">网页设计Web尺寸规范</a></li>
+<li><a href="http://www.ab173.com/ui/icomaker.php">在线制作ico图标</a></li>
+<li><a href="http://www.ab173.com/other/iframe.php">框架网页代码生成器</a></li>
+<li><a href="http://www.ab173.com/ui/rgb.php">rgb颜色对照表</a></li>
+<li><a href="http://www.ab173.com/ui/webcolor.php" target="_blank">网页设计常用色彩搭配表</a></li>
+<li><a href="http://www.ab173.com/ui/ColorPicker.php">Flash取色器</a></li>
+<li><a href="http://www.ab173.com/ui/CssDesigner.php">可视化CSS在线编辑器</a></li>
+<li><a href="http://www.ab173.com/css/css_optimiser.php" target="_blank">CSS压缩与优化工具</a></li>
+<li><a href="http://www.ab173.com/ui/bootstrapicons.php">Bootstrap字体图标库</a></li>
+<li><a href="http://www.ab173.com/textDifference/">在线文本内容比较工具</a></li>
+<li><a href="http://www.ab173.com/jquery/">jquery下载所有版本</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" id="houduantools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">后端<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.ab173.com/json/json2javapojo.php" red>JSON生成Java实体类</a></li>
+<li><a href="http://www.ab173.com/convert/json2csharp.php" id="json2csharp">JSON生成C#实体类</a>
+<li><a href="http://www.ab173.com/other/sql2pojo.php" id="sql2pojo">oracle转Java实体类</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" id="convertTools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">转换<span class="caret"></span></a>
+<ul class="dropdown-menu ul-list">
+<li><a href="http://www.ab173.com/convert/camel_underscore.php" id="camel2under">驼峰转下划线,下划线转驼峰</a></li>
+<li><a href="http://www.ab173.com/convert/html_js.php" id="html2js">在线html转js,js转html</a></li>
+<li><a href="http://www.ab173.com/convert/deserialize.php" id="deserialize">php反序列化成JSON和代码</a></li>
+<li><a href="http://www.ab173.com/ui/px2em.php" id="px2em">px转em,em转px</a></li>
+<li><a href="http://www.ab173.com/ui/image2base64.php" id="img2base64">在线图片转Base64编码</a></li>
+<li><a id="unicodechinese" href="http://www.ab173.com/convert/unicode_chinese.php">unicode中文互转</a></li>
+<li><a href="http://www.ab173.com/convert/unixtime.php">Unix时间戳转换</a></li>
+<li><a href="http://www.ab173.com/convert/jinzhi.php">在线进制转换</a></li>
+<li><a href="http://www.ab173.com/convert/ox2str.php">16进制到文本字符串</a></li>
+<li><a href="http://www.ab173.com/enc/urlcrypt.php">URL16进制加密</a></li>
+<li><a href="http://www.ab173.com/convert/uplowercase.php" id="uplowercase">字母大小写转换</a></li>
+<li><a href="http://www.ab173.com/convert/rgbhex.php" id="rgbhex">RGB颜色和HEX互转</a></li>
+<li><a href="http://www.ab173.com/convert/qrcode.php" id="qrtools">二维码生成与解码</a></li>
+<li><a href="http://www.ab173.com/convert/numtohz.php" id="numtohz">数字转中文(人民币)</a></li>
+<li><a href="http://www.ab173.com/convert/filesize.php" id="filesizehs">在线文件大小换算</a></li>
+<li><a href="http://www.ab173.com/convert/native_ascii.php" id="navasc">NATIVE/ASCII编码互转工具</a></li>
+<li><a href="http://www.ab173.com/convert/htmlubb.php" id="htmlubb">Html与UBB代码互相转换工具</a></li>
+<li><a href="http://www.ab173.com/convert/topinying.php" id="topinying">汉字转换拼音</a></li>
+<li><a href="http://www.ab173.com/convert/fullhalf.php" id="fullhalf">全角半角转换</a></li>
+<li><a href="http://www.ab173.com/convert/huoxingwen.php" id="j2f">简繁体火星文互转</a></li>
+<li><a href="http://www.ab173.com/convert/html2markdown.php" id="html2markdown">Html转换为MarkDown工具</a></li>
+<li><a href="http://www.ab173.com/htaccess2nginx/">Apache路由规则转Nginx规则</a></li>
+<li><a href="http://www.ab173.com/convert/utf-8.php">UTF-8编码转换工具</a></li>
+<li><a href="http://www.ab173.com/convert/ascii.php">ascii码在线转换器</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" id="convertTools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">测试<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.ab173.com/other/regex.php" id="deserialize">正则表达式测试</a></li>
+<li><a href="http://www.ab173.com/other/xpath.php" id="deserialize">xpath测试</a></li>
+<li><a href="http://www.ab173.com/other/regex_create.php">正则表达式代码生成工具</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" class="dropdown-toggle" id="otherTools" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">其他<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li id="keycodes"><a href="http://www.ab173.com/other/keycodes.php">在线获取键盘按键值(ascii码)</a></li>
+<li><a href="http://www.ab173.com/other/findelement.php" id="findbyxpath">寻找图片、链接或xpath寻找元素</a></li>
+<li><a href="http://www.ab173.com/other/sqlappend.php">SQL追加或去除双引号</a></li>
+<li><a href="http://www.ab173.com/other/removeDuplicate.php">去除重复字符串</a></li>
+<li><a href="http://www.ab173.com/other/sortwords.php" id="sortWords">在线根据首字母排序</a></li>
+<li><a href="http://www.ab173.com/other/huaban.php" id="sortWords">在线涂鸦画板</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/">在线科学计算器</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/income.php">年化收益计算器</a></li>
+<li><a href="http://www.ab173.com/other/compress.php">在线字符串文本压缩工具</a></li>
+<li><a href="http://www.ab173.com/fanyi/">免费在线翻译</a></li>
+<li><a href="http://www.ab173.com/mail/">Email图标在线制作工具</a></li>
+<li><a href="http://www.ab173.com/other/txtimage.php">在线提取文本中的图片地址</a></li>
+<li><a href="http://www.ab173.com/other/thunder_flashget.php">迅雷、快车、旋风URL加/解密工具</a></li>
+<li><a href="http://www.ab173.com/other/uuid.php">UUID在线生成</a></li>
+<li><a href="http://www.ab173.com/wangpan/">百度网盘链接有效性批量查询</a></li>
+<li><a href="http://www.ab173.com/other/rili.php">万年历查询(国历,农历在线对照)</a></li>
+<li><a href="http://www.ab173.com/other/txtreplace.php">文字批量替换工具</a></li>
+<li><a href="http://www.ab173.com/tools/worldtime.php">世界各地时间查询</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/zstj.php">在线字数计数器</a></li>
+<li><a href="http://www.ab173.com/other/suijishushengchengqi.php">在线随机数生成器</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/tianshujisuan.php">天数计算器在线计算</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/nianling.php">年龄计算器</a></li>
+<li><a href="http://www.ab173.com/jisuanqi/geshuijisuanqi.php">个人所得税计算器</a></li>
+<li><a href="http://www.ab173.com/youbian/">邮政编码区号查询</a></li>
+<li><a href="http://www.ab173.com/shouji/">手机号码归属地查询</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" id="jsonapi" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">站长<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.ab173.com/zhanzhang/shoulu.php" id="findbyxpath">百度收录批量查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/keywords.php" id="findbyxpath">搜索引擎关键词下拉查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/linkshoulu.php" id="findbyxpath">网站链接百度收录查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/gethttp.php" id="findbyxpath">HTTP状态批量查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/getheader.php" id="findbyxpath">网页HTTP状态查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/openurls.php" id="findbyxpath">批量打开网址</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/yuanma.php" id="findbyxpath">在线查看网页源代码</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/gzip.php">网页GZIP压缩检测</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/density.php">网页关键词密度检测</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/esearch.php">搜索蜘蛛、机器人模拟工具</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/spider.php">搜索引擎蜘蛛照妖镜</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/links.php">在线网站死链接检测工具</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/meta.php">网页META信息检测</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/whois.php">域名Whois查询工具</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/domaindel.php">域名删除时间查询</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/robots.php">robots.txt文件生成器</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/metatag.php">meta标签生成器</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/shortcut.php">在线创建网址桌面快捷方式</a></li>
+<li><a href="http://www.ab173.com/htaccess/" target="_blank">.htaccess文件在线生成器</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/reurl.php">自动刷新请求网址</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/redirect.php">网站301跳转代码在线生成</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/OnLineFTP.php">在线FTP登陆工具</a></li>
+<li><a href="http://www.ab173.com/log/">服务器网站日志分析工具</a></li>
+<li><a href="http://www.ab173.com/zhanzhang/port.php">服务器端口扫描工具</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" class="dropdown-toggle" id="docs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">文档<span class="caret"></span></a>
+<ul class="dropdown-menu ul-list">
+<li><a id="pingdoc" href="http://www.ab173.com/doc/ping.php" rel="external nofollow">ping命令使用教程</a></li>
+<li><a id="hostfiledoc" href="http://www.ab173.com/doc/hostfile.php" rel="external nofollow">host文件修改教程</a></li>
+<li><a id="ipdoc" href="http://www.ab173.com/doc/ip.php" rel="external nofollow">上网IP地址查询教程</a></li>
+<li><a href="http://www.ab173.com/doc/screen.php" rel="external nofollow">屏幕尺寸对照表</a></li>
+<li><a href="http://www.ab173.com/doc/AndroidManifest.php" id="androidManifest">Android权限大全</a></li>
+<li><a href="http://www.ab173.com/json/aboutjson.php">什么是JSON</a></li>
+<li><a href="http://www.ab173.com/json/jsondemo.php">举个栗子</a></li>
+<li><a href="http://www.ab173.com/doc/httpstate.php">HTTP状态码查询</a></li>
+<li><a href="http://www.ab173.com/doc/httpheader.php">HTTP请求头大全</a></li>
+<li><a href="http://www.ab173.com/doc/httpcontent.php">HTTP Content对照表</a></li>
+<li><a href="http://www.ab173.com/doc/httprequest.php">HTTP Request请求方法对照表</a></li>
+<li><a href="http://www.ab173.com/doc/ascii.php">ASCII码对照表</a></li>
+<li><a href="http://www.ab173.com/doc/port.php">常用端口解释</a></li>
+<li><a href="http://www.ab173.com/doc/asperrorcode.php">ASP错误代码</a></li>
+<li><a href="http://www.ab173.com/doc/baiduspiderips.php">百度蜘蛛IP段</a></li>
+<li><a href="http://www.ab173.com/doc/linux.php">Linux常用命令大全</a></li>
+<li><a href="http://www.ab173.com/doc/phpfunction.php">php常用函数大全</a></li>
+<li><a href="http://www.ab173.com/doc/javascriptescape.php">JavaScript特殊字符转义字符</a></li>
+<li><a href="http://www.ab173.com/doc/jsevent.php">Javascript事件说明大全</a></li>
+<li><a href="http://www.ab173.com/doc/partition.php">硬盘分区整数对照表</a></li>
+<li><a href="http://www.ab173.com/doc/a4size.php">a4尺寸大小</a></li>
+<li><a href="http://www.ab173.com/json/jsonapi.php" id="findbyxpath">免费JSON API接口</a></li>
+</ul>
+</li>
+<li class="dropdown hide1"><a href="#" class="dropdown-toggle" id="testtools" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">平台工具<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a rel="external nofollow" target="_blank" href="http://mp.weixin.qq.com/debug">微信公众平台调试工具</a></li>
+<li><a id="coupon" rel="external nofollow" target="_blank" href="http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=cardsign">微信卡券JSAPI签名校验工具</a></li>
+<li><a id="wxsign" rel="external nofollow" target="_blank" href="http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=jsapisign">微信JS接口签名校验工具</a></li>
+<li><a rel="external nofollow" target="_blank" href="http://qy.weixin.qq.com/debug">微信企业号调试工具</a></li>
+<li><a rel="external nofollow" target="_blank" href="http://connect.qq.com/sdk/webtools/">QQ互联API调试工具</a></li>
+<li role="separator" class="divider"></li>
+<li><a rel="external nofollow" target="_blank" href="http://t.cn/R4617Pf">淘宝oauth2.0测试工具</a></li>
+<li><a rel="external nofollow" target="_blank" href="http://t.cn/R461ZZu">淘宝API测试工具</a></li>
+<li><a rel="external nofollow" target="_blank" href="http://t.cn/R461Zm2">淘宝错误码查询工具</a></li>
+<li><a rel="external nofollow" target="_blank" href="http://t.cn/R461wa7">淘宝商品属性工具</a></li>
+<li role="separator" class="divider"></li>
+<li><a rel="external nofollow" target="_blank" href="https://openmonitor.alipay.com/acceptance/cloudparse.htm">支付宝联调日志排查</a></li>
+<li><a id="paicha" rel="external nofollow" target="_blank" href="https://openmonitor.alipay.com/acceptance/troubleshoot.htm">开发者自助排查工具</a></li>
+<li role="separator" class="divider"></li>
+<li><a rel="external nofollow" target="_blank" href="http://open.weibo.com/tools/console">新浪微博API工具</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" id="moret" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="http://www.ab173.com/other/soft.php">常用软件</a></li>
+<li><a href="http://www.downcc.com/" target="_blank" id="td" style="color: green;" rel="external nofollow">软件下载</a></li>
+<li><a href="http://www.ab173.com/other/whatisnew.php">更新日志</a></li>
+<li><a href="http://www.ab173.com/other/ads.php">广告招租</a></li>
+<li><a href="http://www.ab173.com/other/contact.php">联系我们</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<script>var showaban =true;var storageKey ="newtools20180824";if (window.localStorage.getItem(storageKey) ==null) {$("#convertTools").after('<span class="newFeatureTip">●</span>')
+}</script>
+<div style="clear:both"></div>
+<blockquote id="lishi" class="layui-elem-quote layui-quote-nm" style='margin-bottom: 5px;display:none;padding: 4px 20px;font-size:13px;text-align: left;'>
+您最近使用了：<span id="history"></span></blockquote>
+<div class="container">
+<div class="accordion-group">
+<ul class="nav nav-tabs hbflag">
+<li role="presentation"><a href="/zhanzhang/redirect.php">301跳转在线生成</a></li>
+<li role="presentation"><a href="/zhanzhang/openurls.php">批量打开网址网站</a></li>
+<li role="presentation"><a href="/zhanzhang/robots.php">robots.txt文件生成器</a></li>
+<li role="presentation"><a href="/zhanzhang/robots_check.php">robots检测工具</a></li>
+<li role="presentation"><a href="/zhanzhang/metatag.php">meta标签生成器</a></li>
+<li role="presentation"><a href="/zhanzhang/yuan.php">查看网页源代码</a></li>
+<li role="presentation" class="active"><a href="/ui/icomaker.php">在线制作icon图标</a></li>
+</ul>
+</div></div>
+<style type="text/css">.box1{background:#fff url("/static/images/box1-bg.gif") repeat-x left top;border:1px solid #bbd7e6;border-top:1;padding:3px 15px;line-height:30px;margin-bottom:3px;overflow:hidden;}.info3{line-height:22px;color:#333;margin-top:5px;display:block;font-size:14px;padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid #e5eff8;}.input{border:1px solid #94c6e1;background:#fff;color:#22ac38;font-weight:bold;padding:5px;margin-bottom:5px;}.input{font-size:13px;}.but{width:90px;border:1px solid #c5e2f2;background:#cde4f2 url('/static/images/but.gif') repeat-x 50% top;height:30px;margin-left:5px;cursor:pointer;margin-bottom:5px;}.but2{border:1px solid #c5e2f2;background:#cde4f2 url('/static/images/but.gif') repeat-x 50% top;height:30px;margin-left:5px;cursor:pointer;margin-bottom:5px;width:90px;}.input1{border:1px solid #7f9db9;background:#fff;color:#333;font-weight:bold;padding:3px 5px;margin-bottom:5px;}.but1{border:1px solid #7f9db9;background:#f0f7fd;height:23px;margin-left:5px;cursor:pointer;overflow:visible;padding:0 15px;margin-bottom:5px;}.seo_item{text-align:center;background-color:#FFFFFF;}.seo_head,.tracert_head{text-align:center;background-color:#D4E6F7;}table,td{border:1px solid #669BCC;}</style>
+<script>var showaban =false;</script>
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="media">
+<div class="media-body">
+<h1 class="media-heading">在线制作ico图标</h1>
+<div id="desc1">favicon.ico一般用于作为缩略的网站标志,它显示位于浏览器的地址栏或者在标签上,用于显示网站的logo,如图红圈的位置， 目前主要的浏览器都支持favicon.ico图标.</div>
+</div>
+</div>
+</div>
+<div class="panel-body">
+<div class="box1">
+生成图标错误...这张图片或许已损坏.<form method="post" enctype='multipart/form-data'>
+选择原始图片：<input type="file" name="upimage" size="30"> 支持格式：png，jpg，gif<br />
+目标尺寸：
+<input type="radio" name="size" value="1" id="s1"><label for="s1">16*16</label>
+<input type="radio" name="size" value="2" id="s2" checked><label for="s2">32*32</label>
+<input type="radio" name="size" value="3" id="s3"><label for="s3">48*48</label><br />
+<input type="submit" class="mob_copy2" value="生成ico图标">
+</form>
+<div align="left">
+<h3>使用说明</h3>
+<p>
+- <abbr>原始图像</abbr>可以接受: .jpg .jpeg .gif .png等图像格式<br>
+- 原始图像文件大小限制在小于<em class="important">500k</em><br>
+- 建议制作一张400x400的jpg图像, 然后等比缩小到你想转换的ico尺寸,最后用AB173懒人工具转换成<strong>ico图标</strong>格式.<br>
+- 当然你也可以直接把原始尺寸的图像通过AB173懒人工具直接转换，AB173懒人工具会自动将图片缩小到合适的<strong>ico图标</strong>尺寸，不过可能会在缩小的时候有所失真
+</p>
+<h3>如何安装Favicon</h3>
+1、网站使用：ico图标可以作为标志，目前主流的浏览器都支持ico图标，它显示于浏览器的地址栏、标签及收藏夹上，例如用IE访问本站时在IE地址栏看到的蓝色"Z"图标。一般情况下，作为把网站标志的ico图标大小为16×16，命名为"favicon.ico"，然后将其上传到空间的根目录，最后在网页代码的&lt;head&gt;与&lt;/head&gt;之间加入下面的代码：
+<form name='form' method='post' action=''>
+<tr>
+<td>
+<textarea rows=2 name='WEcode' style="width:100%;font-size:12px;height:45px;border:1px solid #E9E9E0;" title="双击拷贝代码" onDblClick="this.form.WEcode.focus();this.form.WEcode.select();window.clipboardData.setData('Text',this.form.WEcode.value);alert('代码已复制到剪贴板');return true;"><link rel="shortcut icon" href="http://www.ab173.com/favicon.ico"></textarea></td>
+</tr>
+</form>
+2、文件夹或者程序使用：以文件夹使用为例，把ico图标命名为"ds.ico"，然后把下面的代码复制到记事本并保存在该文件夹根目录内，命名为"desktop.ini"：
+<form name='form' method='post' action=''>
+<tr>
+<td>
+<textarea rows=2 name='WEcode' style="width:100%;font-size:12px;height:130px;border:1px solid #E9E9E0;" title="双击拷贝代码" onDblClick="this.form.WEcode.focus();this.form.WEcode.select();window.clipboardData.setData('Text',this.form.WEcode.value);alert('代码已复制到剪贴板');return true;">[.ShellClassInfo]
+InfoTip=文件夹说明
+IconFile=ds.ico
+IconIndex=0</textarea></td>
+</tr>
+</form>
+3、分区盘符的修改方法：把ico图标命名为"partition.ico"，然后把下面的代码复制到记事本并保存在该分区根目录内，命名为"autorun.inf"：
+<form name='form' method='post' action=''>
+<tr>
+<td>
+<textarea rows=2 name='WEcode' style="width:100%;font-size:12px;height:75px;border:1px solid #E9E9E0;" title="双击拷贝代码" onDblClick="this.form.WEcode.focus();this.form.WEcode.select();window.clipboardData.setData('Text',this.form.WEcode.value);alert('代码已复制到剪贴板');return true;">[autorun]
+icon=partition.ico</textarea></td>
+</tr>
+</form>
+</div>
+</div>
+</div>
+<div class="panel-footer"></div>
+</div>
+<script src="/static/js/layer.min.js"></script>
+</div></div></div></div></div>
+<script src="/static/js/common.js"></script>
+</body>
+</html>
