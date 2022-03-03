@@ -1,5 +1,0 @@
-# robots.txt generated at
- https://cp666624.cn/robots.txt 
-User-agent: *
-
-Disallow: /blog/
