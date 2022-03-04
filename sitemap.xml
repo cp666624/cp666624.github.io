@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+
+
 <url>
 <loc>http://cp666624.cn/</loc>
 <lastmod>2022-3-5 0:38:35</lastmod>
@@ -60,3 +63,9 @@
 <changefreq>daily</changefreq>
 <priority>1</priority>
 </url>
+
+
+
+
+
+</urlset>
