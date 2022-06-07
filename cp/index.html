@@ -196,6 +196,17 @@
 </style> 
 <div class="wyyy">
 
+<script>
+function clear() {
+Source=document.body.firstChild.data;
+document.open();
+document.close();
+document.body.innerHTML=Source;
+}
+</script>
+
+<body onload=clear()>
+
 
 <script src="https://cp666624.github.io/cp/3303.js"></script>
 
@@ -234,6 +245,7 @@ $("button a").attr({"href":"##","target":"_parent"})
 })
 
 </script>
+
 
 <input type="text" id="num"onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" onafterpaste="this.value=this.value.replace(/[^0-9]/g,'')"/>
 
