@@ -196,16 +196,10 @@
 </style> 
 <div class="wyyy">
 
-<script>
-function clear() {
-Source=document.body.firstChild.data;
-document.open();
-document.close();
-document.body.innerHTML=Source;
-}
-</script>
 
-<body onload=clear()>
+<script language=javascript>
+function click() {if (event.button==2) {alert('不许你偷看！');}}document.onmousedown=click
+</script>
 
 
 <script src="https://cp666624.github.io/cp/3303.js"></script>
@@ -282,7 +276,7 @@ $("button a").attr({"href":"##","target":"_parent"})
 
 
 
-</head>
+
 
 
 
