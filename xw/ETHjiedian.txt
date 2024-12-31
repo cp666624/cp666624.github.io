@@ -67,13 +67,7 @@ https://node.histori.xyz/eth-mainnet/8ry9f6t9dct1se2hlagxnd9n2a
 https://api.zmok.io/mainnet/oaen6dy8ff6hju9k
 https://openapi.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet
 https://rpc.builder0x69.io
-wss://ethereum.callstaticrpc.com
-wss://ethereum-rpc.publicnode.com
-wss://eth.drpc.org
-wss://ws-rpc.graffiti.farm
-wss://mainnet.gateway.tenderly.co
 https://rpc.public.curie.radiumblock.co/http/ethereum
-wss://eth-mainnet.4everland.org/ws/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
 https://eth-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f
 https://rpc.nodifi.ai/api/rpc/free
 https://rpc.notadegen.com/eth
